@@ -1,0 +1,9 @@
+source https://api.nuget.org/v3/index.json
+
+nuget log4net >= 2.0.8
+
+group Build
+  source https://api.nuget.org/v3/index.json
+
+  nuget FAKE
+  nuget FSharp.Formatting
