@@ -2,8 +2,7 @@
 
 set -e
 
-mono .paket/paket.bootstrapper.exe
-mono .paket/paket.exe restore
+paket restore
 
 msbuild /t:Restore
 msbuild

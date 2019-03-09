@@ -1,0 +1,2 @@
+DOJO_DRIVER=docker
+DOJO_DOCKER_IMAGE="docker-registry.ai-traders.com/dotnet-dojo:25ae1051"
